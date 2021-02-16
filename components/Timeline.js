@@ -126,20 +126,18 @@ const FullTimeline = () => (
     <Year>1998</Year>
     <ul>
       <Step title="First Computer">
-        I remember many nights playing Age of Empires, Lego Island, and
-        Runescape.
+        I remember many nights playing playing video games.
       </Step>
     </ul>
     <Divider />
-    <Year>1997</Year>
+    <Year>1995</Year>
     <ul>
-      <Step title="Became a Pokémon Master">
-        Every time we'd go to Target, I would beg my mom to get a pack of
-        Pokémon cards. Sorry, mom.
+      <Step title="Came to America">
+        fresh of the boat in my fur coat.
       </Step>
     </ul>
     <Divider />
-    <Year>1993</Year>
+    <Year>1990</Year>
     <ul>
       <Step title="Born 👶🏼🍼" />
     </ul>
@@ -152,13 +150,12 @@ export default function Timeline() {
   return (
     <>
       <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
-        Timeline
+        Goals
       </h3>
-      <Year>2020</Year>
+      <Year>Future Projects</Year>
       <ul>
-        <Step title="Joined ▲Vercel">
-          I'm excited to help grow the Next.js community and continue building
-          the optimal workflow for front-end developers.
+        <Step title="Fantasy Football App">
+          Fantasy football app with graphs. api calls for stats
         </Step>
         <Step title="Launched React 2025 💯">
           Building a real SaaS application, from zero to production.
