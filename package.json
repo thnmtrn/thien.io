@@ -1,5 +1,5 @@
 {
-  "name": "Thien Tran",
+  "name": "thientran.me",
   "description": "My personal website.",
   "version": "0.0.0",
   "author": {
@@ -10,7 +10,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thnmtrn/thien.io.git"
+    "url": "git+https://github.com/leerob/thnmtrn.git"
   },
   "scripts": {
     "build": "next build",
