@@ -1,16 +1,16 @@
 {
-  "name": "leerob.io",
+  "name": "Thien Tran",
   "description": "My personal website.",
   "version": "0.0.0",
   "author": {
     "name": "Lee Robinson",
-    "email": "me@leerob.io",
-    "url": "https://leerob.io"
+    "email": "me@thientran.me",
+    "url": "https://thientran.me"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leerob/leerob.io.git"
+    "url": "git+https://github.com/thnmtrn/thien.io.git"
   },
   "scripts": {
     "build": "next build",
