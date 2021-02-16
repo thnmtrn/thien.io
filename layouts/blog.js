@@ -15,7 +15,7 @@ const discussUrl = (slug) =>
 export default function BlogLayout({ children, frontMatter }) {
   return (
     <Container
-      title={`${frontMatter.title} – Lee Robinson`}
+      title={`${frontMatter.title} – Thien Tran`}
       description={frontMatter.summary}
       image={`https://leerob.io${frontMatter.image}`}
       date={new Date(frontMatter.publishedAt).toISOString()}
@@ -28,7 +28,7 @@ export default function BlogLayout({ children, frontMatter }) {
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center w-full mt-2 mb-8">
           <div className="flex items-center">
             <Image
-              alt="Lee Robinson"
+              alt="Thien Tran"
               height={24}
               width={24}
               src="/avatar.jpg"
@@ -36,7 +36,7 @@ export default function BlogLayout({ children, frontMatter }) {
             />
             <p className="text-sm text-gray-700 dark:text-gray-300 ml-2">
               {frontMatter.by}
-              {'Lee Robinson / '}
+              {'Thien Tran / '}
               {format(parseISO(frontMatter.publishedAt), 'MMMM dd, yyyy')}
             </p>
           </div>
