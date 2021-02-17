@@ -21,7 +21,7 @@ export default function Container(props) {
   const meta = {
     title: 'Thien Tran – Developer, writer, creator.',
     description: `Front-end developer, JavaScript enthusiast.`,
-    image: 'https://leerob.io/static/images/banner.png',
+    image: 'https://thientran.me/static/images/banner.png',
     type: 'website',
     ...customMeta
   };
