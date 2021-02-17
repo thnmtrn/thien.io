@@ -2188,6 +2188,7 @@
     "anymatch" "^2.0.0"
     "async-each" "^1.0.1"
     "braces" "^2.3.2"
+    "fsevents" "^1.2.7"
     "glob-parent" "^3.1.0"
     "inherits" "^2.0.3"
     "is-binary-path" "^1.0.0"
@@ -2206,6 +2207,7 @@
   dependencies:
     "anymatch" "~3.1.1"
     "braces" "~3.0.2"
+    "fsevents" "~2.1.2"
     "glob-parent" "~5.1.0"
     "is-binary-path" "~2.1.0"
     "is-glob" "~4.0.1"
@@ -2834,6 +2836,11 @@
   dependencies:
     "is-obj" "^2.0.0"
 
+"dotenv@^8.2.0":
+  "integrity" "sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw=="
+  "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-8.2.0.tgz"
+  "version" "8.2.0"
+
 "duplexify@^3.4.2", "duplexify@^3.6.0":
   "integrity" "sha512-07z8uv2wMyS51kKhD1KsdXJg5WQ6t93RneqRxUHnskXVtlYYkLqM0gqStQZ3pj073g687jPCHrqNfCzawLYh5g=="
   "resolved" "https://registry.npmjs.org/duplexify/-/duplexify-3.7.1.tgz"
@@ -3203,6 +3210,8 @@
   dependencies:
     "@firebase/database" "^0.8.1"
     "@firebase/database-types" "^0.6.1"
+    "@google-cloud/firestore" "^4.5.0"
+    "@google-cloud/storage" "^5.3.0"
     "@types/node" "^10.10.0"
     "dicer" "^0.3.0"
     "jsonwebtoken" "^8.5.1"
@@ -4246,6 +4255,7 @@
   "resolved" "https://registry.npmjs.org/jsonfile/-/jsonfile-6.1.0.tgz"
   "version" "6.1.0"
   dependencies:
+    "graceful-fs" "^4.1.6"
     "universalify" "^2.0.0"
   optionalDependencies:
     "graceful-fs" "^4.1.6"
@@ -4955,6 +4965,7 @@
     "resolve-url-loader" "3.1.2"
     "sass-loader" "10.0.5"
     "schema-utils" "2.7.1"
+    "sharp" "0.26.3"
     "stream-browserify" "3.0.0"
     "style-loader" "1.2.1"
     "styled-jsx" "3.3.2"
@@ -5573,6 +5584,8 @@
   "integrity" "sha512-PrEDJAFdUGbOP6xK/UsfkC5ghJsPJviKgnQOoxaDbBjwc8op68Quupwt1DeAFoG8GImPhiKXAvvsH7wDSLsu1Q=="
   "resolved" "https://registry.npmjs.org/prismjs/-/prismjs-1.17.1.tgz"
   "version" "1.17.1"
+  dependencies:
+    "clipboard" "^2.0.0"
   optionalDependencies:
     "clipboard" "^2.0.0"
 
@@ -5580,6 +5593,8 @@
   "integrity" "sha512-uGdSIu1nk3kej2iZsLyDoJ7e9bnPzIgY0naW/HdknGj61zScaprVEVGHrPoXqI+M9sP0NDnTK2jpkvmldpuqDw=="
   "resolved" "https://registry.npmjs.org/prismjs/-/prismjs-1.21.0.tgz"
   "version" "1.21.0"
+  dependencies:
+    "clipboard" "^2.0.0"
   optionalDependencies:
     "clipboard" "^2.0.0"
 
@@ -7415,8 +7430,10 @@
   "resolved" "https://registry.npmjs.org/watchpack/-/watchpack-1.7.4.tgz"
   "version" "1.7.4"
   dependencies:
+    "chokidar" "^3.4.1"
     "graceful-fs" "^4.1.2"
     "neo-async" "^2.5.0"
+    "watchpack-chokidar2" "^2.0.0"
   optionalDependencies:
     "chokidar" "^3.4.1"
     "watchpack-chokidar2" "^2.0.0"

@@ -84,7 +84,13 @@ export default function Container(props) {
             </svg>
           )}
         </button>
+        <Link href="/guestbook">
+            <a className="text-gray-500 hover:text-gray-600 transition text-2xl">
+              thientran.me
+            </a>
+          </Link>
         <div className="flex items-center text-base leading-5">
+          
             <div className="hidden sm:block">
               {headerNavLinks.map((link) => (
                 <Link
