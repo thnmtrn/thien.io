@@ -17,6 +17,10 @@ export default function About() {
             I have an obession with minimalist ui. 
           </p>
           <p>
+            I have an innate desire to create - websites, programs, pictures, videos, music - you name it. My passion lies in the instersion of creation 
+            and communication. I want to create tools to help humans solve problems better and faster. 
+          </p>
+          <p>
             I grew up in CT. I've went through a period of depression. With this blog and coding, I've found some clarity and path in my life. I hope to achieve my goal of becoming a professional developer one day.
             I hope this blog could one day be an inspiration to others to keep pushing, no matter how dark it may look.
           </p>
@@ -24,7 +28,13 @@ export default function About() {
         <h2 className="font-bold text-3xl tracking-tight mb-4 text-black dark:text-white">
           My Stack
         </h2>
-        
+        <ul>
+          <li>React</li>
+          <li>Nextjs</li>
+          <li>Tailwindcss</li>
+          <li>Mongodb</li>
+          <li>Firebase</li>
+        </ul>
       </div>
     </Container>
   );
