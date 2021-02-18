@@ -19,7 +19,7 @@ export default function Container(props) {
   const { children, ...customMeta } = props;
   const router = useRouter();
   const meta = {
-    title: 'Thien Tran – Developer, writer, creator.',
+    title: 'Thien Tran – Javascript enthusiast.',
     description: `Front-end developer, JavaScript enthusiast.`,
     image: 'https://thientran.me/static/images/banner.png',
     type: 'website',
@@ -27,7 +27,7 @@ export default function Container(props) {
   };
 
   return (
-    <div className="bg-white dark:bg-black">
+    <div className="bg-white dark:bg-gray-900">
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
@@ -48,7 +48,7 @@ export default function Container(props) {
           <meta property="article:published_time" content={meta.date} />
         )}
       </Head>
-      <nav className="sticky-nav flex justify-between items-center max-w-4xl w-full p-8 my-0 md:my-8 mx-auto bg-white dark:bg-black bg-opacity-60">
+      <nav className="sticky-nav flex justify-between items-center max-w-4xl w-full p-8 my-0 md:my-8 mx-auto bg-white dark:bg-gray-900 bg-opacity-60">
         <a href="#skip" className="sr-only focus:not-sr-only">
           Skip to content
         </a>
@@ -84,9 +84,9 @@ export default function Container(props) {
             </svg>
           )}
         </button>
-        <Link href="/guestbook">
-            <a className="text-gray-500 hover:text-gray-600 transition text-2xl">
-              thientran.me
+        <Link href="/">
+            <a className="text-gray-900 hover:text-blue-400 transition text-4xl text-bold dark:text-gray-100 dark:hover:text-red-200">
+              t
             </a>
           </Link>
         <div className="flex items-center text-base leading-5">
@@ -107,7 +107,7 @@ export default function Container(props) {
       </nav>
       <main
         id="skip"
-        className="flex flex-col justify-center bg-white dark:bg-black px-8"
+        className="flex flex-col justify-center bg-white dark:bg-gray-900 px-8"
       >
         {children}
         <Footer />
