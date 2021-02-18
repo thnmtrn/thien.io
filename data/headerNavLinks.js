@@ -5,6 +5,7 @@ const headerNavLinks = [
   { href: '/dashboard', title: 'Dashboard' },
   { href: '/snippets', title: 'Snippets' },
   { href: '/tweets', title: 'Tweets' },
+  { href: '/movies', title: 'Movies' },
 ]
 
 export default headerNavLinks
