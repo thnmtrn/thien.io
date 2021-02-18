@@ -3,7 +3,6 @@ import headerNavLinks from '@/data/headerNavLinks'
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 import { useTheme } from 'next-themes';
-import NextLink from 'next/link';
 import Link from './Link'
 
 import Footer from '@/components/Footer';
