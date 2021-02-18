@@ -9,8 +9,8 @@ const BlogPost = ({ title, publishedAt, summary, slug }) => {
   const views = data?.total;
 
   return (
-    <Link href={`/blog/${slug}`}>
-      <a className="w-full">
+    <Link href={`/blog/${slug}`} >
+      <a className="w-full border border-gray-200 p-3 py-2 pt-4 mb-4 rounded border-opacity-20">
         <div className="mb-8 w-full">
           <div className="flex flex-col md:flex-row justify-between">
             <h4 className="text-lg hover:text-green-400 md:text-xl font-medium mb-2 w-full text-gray-900 dark:text-gray-100 dark:hover:text-indigo-400">
