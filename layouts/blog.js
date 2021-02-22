@@ -6,10 +6,10 @@ import Subscribe from '@/components/Subscribe';
 import ViewCounter from '@/components/ViewCounter';
 
 const editUrl = (slug) =>
-  `https://github.com/leerob/leerob.io/edit/main/data/blog/${slug}.mdx`;
+  `https://github.com/thnmtrn/thien.io/edit/main/data/blog/${slug}.mdx`;
 const discussUrl = (slug) =>
   `https://mobile.twitter.com/search?q=${encodeURIComponent(
-    `https://leerob.io/blog/${slug}`
+    `https://thientran.me/blog/${slug}`
   )}`;
 
 export default function BlogLayout({ children, frontMatter }) {
@@ -17,7 +17,7 @@ export default function BlogLayout({ children, frontMatter }) {
     <Container
       title={`${frontMatter.title} – Thien Tran`}
       description={frontMatter.summary}
-      image={`https://leerob.io${frontMatter.image}`}
+      image={`https://thientran.me${frontMatter.image}`}
       date={new Date(frontMatter.publishedAt).toISOString()}
       type="article"
     >

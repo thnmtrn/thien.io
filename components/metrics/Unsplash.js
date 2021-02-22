@@ -9,7 +9,7 @@ export default function Unsplash() {
 
   const downloads = format(data?.downloads);
   const views = format(data?.views);
-  const link = 'https://unsplash.com/@leerob';
+  const link = 'https://unsplash.com/@thientran';
 
   return (
     <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 my-2 w-full">

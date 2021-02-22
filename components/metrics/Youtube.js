@@ -9,7 +9,7 @@ export default function YouTube() {
 
   const subscriberCount = format(data?.subscriberCount);
   const viewCount = format(data?.viewCount);
-  const link = 'https://www.youtube.com/channel/UCZMli3czZnd1uoc1ShTouQw';
+  const link = 'https://www.youtube.com/channel/thienmtran';
 
   return (
     <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 my-2 w-full">
