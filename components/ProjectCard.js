@@ -3,7 +3,6 @@ export default function ProjectCard({ title, description, href, icon }) {
     <a
       className="mb-4 hover:shadow"
       href={href}
-      onClick={() => trackGoal(title)}
       aria-label={title}
       target="_blank"
       rel="noopener noreferrer"
