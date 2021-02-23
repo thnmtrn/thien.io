@@ -37,11 +37,11 @@ export default function Home() {
           Projects
         </h3>
         <ProjectCard
-          title="React 2025"
-          description="Build and deploy a modern Jamstack application using the most popular open-source software."
-          href="https://react2025.com/"
+          title="Todo App"
+          description="todo app with material ui"
+          href="https://todo-next-delta.vercel.app/"
           icon="react2025"
-        />
+       />
         <ProjectCard
           title="Learn Next.js"
           description="A free video course for building static and server-side rendered applications with Next.js and React."
