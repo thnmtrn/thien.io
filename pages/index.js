@@ -37,21 +37,39 @@ export default function Home() {
           Projects
         </h3>
         <ProjectCard
-          title="Todo App"
-          description="todo app with material ui"
-          href="https://todo-next-delta.vercel.app/"
-          icon="react2025"
-       />
-        <ProjectCard
-          title="Learn Next.js"
-          description="A free video course for building static and server-side rendered applications with Next.js and React."
-          href="https://masteringnextjs.com/"
-          icon="nextjs"
+          title="To-do"
+          description="Built with React, NextJS, TailwindCSS. Uses Local Stroage"
+          href="https://next-todo-delta.vercel.app/"
+          icon="fastfeedback"
         />
-        <ProjectCard
-          title="Fast Feedback"
-          description="The easiest way to add comments or reviews to your static site. Built as part of React 2025."
-          href="https://fastfeedback.io/"
+      <ProjectCard
+          title="Pokedex"
+          description="Built with React, NextJS, TailwindCSS. Axios"
+          href="https://next-dex.vercel.app/"
+          icon="fastfeedback"
+        />
+      <ProjectCard
+          title="Notes App"
+          description="Built with React, NextJS, Mongoose, Mongodb"
+          href="https://next-dex.vercel.app/"
+          icon="fastfeedback"
+        />
+      <ProjectCard
+          title="Coach Thai"
+          description="Built with React, NextJS, TailwindCSS. for fun"
+          href="https://next-dex.vercel.app/"
+          icon="fastfeedback"
+        />
+      <ProjectCard
+          title="Annie's NailSpa"
+          description="Built with React, NextJS, TailwindCSS. simple landing page"
+          href="https://next-dex.vercel.app/"
+          icon="fastfeedback"
+        />
+      <ProjectCard
+          title="Nice Dist & MFG"
+          description="Built with React, NextJS, TailwindCSS. planning stage"
+          href="https://next-dex.vercel.app/"
           icon="fastfeedback"
         />
         <Subscribe />
