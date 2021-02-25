@@ -1,8 +1,15 @@
+import { Badge } from '@/components/badge'
+import Popover from '@/components/Popover'
+import Container from '@/components/Container'
+
+
 const dev = () => {
   return (
-    <div>
-      <h1>hello world</h1>
-    </div>
+    <Container>
+      <h3>hello world</h3>
+      <Popover/>
+      <Badge />
+    </Container>
   )
 }
 
