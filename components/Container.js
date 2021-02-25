@@ -84,7 +84,7 @@ export default function Container(props) {
           )}
         </button>
         <Link href="/">
-            <a className="text-gray-900 hover:text-blue-400 transition text-4xl text-bold dark:text-gray-100 dark:hover:text-red-200">
+            <a className="text-gray-900 hover:text-cyan-400 transition text-4xl text-bold dark:text-gray-100 dark:hover:text-cyan-400">
               t
             </a>
           </Link>
