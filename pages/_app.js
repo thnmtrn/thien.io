@@ -1,4 +1,6 @@
 import '@/styles/global.css';
+import "@fortawesome/fontawesome-free/css/all.min.css";
+
 
 import { MDXProvider } from '@mdx-js/react';
 import { ThemeProvider } from 'next-themes';
