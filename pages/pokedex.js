@@ -1,5 +1,5 @@
 import Container from "@/components/Container";
-import Link from "next/Link"
+import Link from 'next/link'
 
 export default function pokedex({pokemon}) {
 

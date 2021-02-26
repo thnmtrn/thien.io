@@ -19,7 +19,7 @@ then we add try catch
 export async function getStaticProps(context) {
   try {
     const res = await fetch('');
-    const data = await res.json('');
+    const data = await res.json();
   } catch (err) {
     console.error(err);
   }
