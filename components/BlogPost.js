@@ -10,18 +10,21 @@ const BlogPost = ({ title, publishedAt, summary, slug }) => {
 
   return (
     <Link href={`/blog/${slug}`} >
-      <a className="w-full border border-gray-200 p-3 py-2 pt-4 mb-4 rounded border-opacity-20">
+      <a className="w-full bg-gray-100 dark:bg-gray-800 border border-gray-300 dark:border-gray-700 p-3 py-2 pt-4 mb-4 border-opacity-20">
         <div className="mb-8 w-full">
-          <div className="flex flex-col md:flex-row justify-between">
-            <h4 className="text-lg hover:text-green-400 md:text-xl font-medium mb-2 w-full text-gray-900 dark:text-gray-100 dark:hover:text-indigo-400">
+          <div className="flex flex-col md:flex-row sm:flex sm:flex-flow-row justify-between">
+            <h4 className="text-lg hover:text-cyan-400 md:text-xl font-medium mb-2 w-full text-gray-900  dark:text-gray-100 dark:hover:text-cyan-400">
               {title}
             </h4>
-            <p className="text-blue-400 text-left md:text-right w-32 mb-4 md:mb-0">
+            <div className='flex sm:flex-row'>
+
+            <p className="text-gray-400  dark:text-gray-100 text-left md:text-right w-32 mb-4 md:mb-0">
               {publishedAt}
             </p>
-            <p className="text-green-500 text-left md:text-right w-32 mb-4 md:mb-0">
+            <p className="text-gray-600 dark:text-gray-100 text-right md:text-right w-32 mb-4 md:mb-0">
               {`${views ? format(views) : '–––'} views`}
             </p>
+            </div>
           </div>
           <p className="text-gray-700 dark:text-gray-300">{summary}</p>
         </div>
