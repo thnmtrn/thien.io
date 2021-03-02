@@ -21,16 +21,19 @@ export default function Home() {
         <BlogPost
           title="tailwind"
           summary="tailwind stuff"
+          publishedAt="2021-02-28"
           slug="tailwind"
         />
         <BlogPost
           title="cheetsheets"
           summary="cheatsheets"
+          publishedAt="2021-02-28"
           slug="cheatsheets"
         />
         <BlogPost
           title="APIs with NextJS"
           summary="SSR"
+          publishedAt="2021-02-28"
           slug="api-nextjs"
         />
         <h3 className="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">

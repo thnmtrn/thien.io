@@ -12,7 +12,7 @@ module.exports = {
 
       },
       fontFamily: {
-        mono: ['JetBrains Mono', ...fontFamily.mono]
+        sans: ['Inter', ...fontFamily.sans]
       },
       typography: (theme) => ({
         DEFAULT: {
