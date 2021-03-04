@@ -17,19 +17,19 @@ export default function Tweets({ tweets }) {
           bit, so I wanted a place to publicly share what inspires me, makes me
           laugh, and makes me think.
         </p>
-        {tweets.map((tweet) => (
+        {/* {tweets.map((tweet) => (
           <Tweet key={tweet.id} {...tweet} />
-        ))}
+        ))} */}
       </div>
     </Container>
   );
 }
 
-export async function getStaticProps() {
-  const tweets = await getTweets([
-    '935857414435495937',
+// export async function getStaticProps() {
+//   const tweets = await getTweets([
+//     '935857414435495937',
 
-  ]);
+//   ]);
 
-  return { props: { tweets } };
-}
+//   return { props: { tweets } };
+// }

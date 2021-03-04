@@ -10,31 +10,31 @@ export default function Navbar({ fixed }) {
             <li>
               <a
                 href="/"
-                aria-label="Our product"
-                title="Our product"
+                aria-label="Blog"
+                title="Blog"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Product
+                Blog
               </a>
             </li>
             <li>
               <a
-                href="/"
-                aria-label="Our product"
-                title="Our product"
+                href="/projects"
+                aria-label="Projects"
+                title="Projects"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Features
+                Projects
               </a>
             </li>
             <li>
               <a
-                href="/"
-                aria-label="Product pricing"
+                href="/bookmarks"
+                aria-label="Bookmarks"
                 title="Product pricing"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Pricing
+                bookmarks
               </a>
             </li>
           </ul>
@@ -67,21 +67,21 @@ export default function Navbar({ fixed }) {
             <li>
               <a
                 href="/"
-                aria-label="Sign in"
-                title="Sign in"
+                aria-label="Menu"
+                title="Menu"
                 class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Sign in
+                Menu
               </a>
             </li>
             <li>
               <a
                 href="/"
                 class="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                aria-label="Sign up"
-                title="Sign up"
+                aria-label="dashboard"
+                title="Dashboard"
               >
-                Sign up
+                Dashboard
               </a>
             </li>
           </ul>
@@ -159,52 +159,52 @@ export default function Navbar({ fixed }) {
                     <ul class="space-y-4">
                       <li>
                         <a
-                          href="/"
-                          aria-label="Our product"
-                          title="Our product"
+                          href="/blog"
+                          aria-label="Blog"
+                          title="Blog"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Product
+                          Blog
                         </a>
                       </li>
                       <li>
                         <a
-                          href="/"
-                          aria-label="Our product"
-                          title="Our product"
+                          href="/projects"
+                          aria-label="projects"
+                          title="projects"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Features
+                          projects
                         </a>
                       </li>
                       <li>
                         <a
-                          href="/"
-                          aria-label="Product pricing"
-                          title="Product pricing"
+                          href="/bookmarks"
+                          aria-label="bookmarks"
+                          title="bookmarks"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Pricing
+                          bookmarks
                         </a>
                       </li>
                       <li>
                         <a
-                          href="/"
-                          aria-label="Sign in"
-                          title="Sign in"
+                          href="/notes"
+                          aria-label="Notes"
+                          title="Notes"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Sign in
+                          Notes
                         </a>
                       </li>
                       <li>
                         <a
-                          href="/"
+                          href="/dashboard"
                           class="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-deep-purple-accent-400 hover:bg-deep-purple-accent-700 focus:shadow-outline focus:outline-none"
-                          aria-label="Sign up"
-                          title="Sign up"
+                          aria-label="Dashboard"
+                          title="Dashboard"
                         >
-                          Sign up
+                          Dashboard
                         </a>
                       </li>
                     </ul>
