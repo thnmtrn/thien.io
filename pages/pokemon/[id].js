@@ -8,7 +8,7 @@ import Basics from '../../components/Basics'
 import Evolution from '../../components/Evolution'
 import Stats from '../../components/Stats'
 import Moves from '../../components/Moves'
-import Loader from '../../components/Loader'
+import Loader from '@/../components/Loader'
 import Container from '@/components/Container'
 
 const PokeDetails = () => {
