@@ -1,4 +1,4 @@
-import Navbar from "components/Navbar.js";
+import Navbar from "@/components/Navbar2.js";
 import Sidebar from "components/Sidebar.js";
 import LineChart from "components/LineChart.js";
 import BarChart from "components/BarChart.js";
