@@ -19,7 +19,7 @@ export default function Home() {
 
     return (
         <Container>
-            <div className='bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 w-full h-1'>
+            <div className='bg-gradient-to-r from-pink-400 via-red-400 to-yellow-400 w-full h-1'>
                 
             </div>
 

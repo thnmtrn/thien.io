@@ -58,7 +58,7 @@ const Moves = ({moves, baseColor}) =>
 				<div className='w-1/12'>{accuracy}</div>
 				<div className='w-1/12'>
 					<div className={`icon ${type.toLowerCase()} w-20 flex`}>
-						<img src={`/icons/${type.toLowerCase()}.svg`} alt="type-icon"/>
+						
 					</div>
 				</div>
 			</div>
@@ -129,7 +129,7 @@ const Moves = ({moves, baseColor}) =>
 						<div className="w-1/12">Power</div>
 						<div className="w-1/12">PP</div>
 						<div className="w-1/12">Accuracy</div>
-						<div className="w-1/12">Type</div>
+						
 					</div>
 					<div style={{height: '55vh'}} className='overflow-y-scroll overflow-x-hidden py-3 bg-transparent border-b border-gray-300'>{finalMoves}</div>
 				</div>
