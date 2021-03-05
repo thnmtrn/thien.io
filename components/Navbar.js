@@ -5,6 +5,8 @@ import { MdBookmarkBorder, MdMenu } from 'react-icons/md'
 
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = useState(false);
+  const [isBookmarkOpen, setisBookmarkOpen] = useState(false);
+
   return (
     <>
       <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 navbar-expand-lg bg-gray-100 dark:bg-gray-900 mb-6 mt-3">
@@ -20,7 +22,7 @@ export default function Navbar({ fixed }) {
             <button
               className="text-white cursor-pointer text-xl leading-none px-1 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
-              onClick={() => setNavbarOpen(!navbarOpen)}
+              onClick={() => setisBookmarkOpen(!isBookmarkOpen)}
             >
               <MdBookmarkBorder className="text-gray-800 w-6 h-6"/>
             </button>
@@ -41,6 +43,40 @@ export default function Navbar({ fixed }) {
             id="example-navbar-danger"
           >
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto mt-6">
+              <li className="nav-item">
+                <a
+                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                  href="#pablo"
+                >
+                  <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Share</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                  href="#pablo"
+                >
+                  <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Tweet</span>
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+                  href="#pablo"
+                >
+                  <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Pin</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div
+            className={
+              "lg:flex flex-grow items-center" +
+              (isBookmarkOpen ? "flex" : " hidden")
+            }
+            id="example-navbar-danger"
+          >
+            <ul className="flex flex-col lg:flex-row list-none lg:ml-auto mt-6 bg-red-400">
               <li className="nav-item">
                 <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
