@@ -1,10 +1,11 @@
+import Container from '@/components/Container'
 import WeatherComponent from '@/components/WeatherComponent'
 
 function weather() {
     return (
-        <div>
+        <Container>
             <WeatherComponent/>
-        </div>
+        </Container>
     )
 }
 

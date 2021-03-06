@@ -19,19 +19,19 @@ function CalendarComponent () {
   }
   const [events, setEvents] = useState([
     {
-      event_date: new Date(2020, 3, 1),
+      event_date: new Date(2021, 3, 1),
       event_title: "April Fool's Day",
       event_theme: 'blue'
     },
 
     {
-      event_date: new Date(2020, 3, 10),
+      event_date: new Date(2021, 6, 6),
       event_title: "Birthday",
       event_theme: 'red'
     },
 
     {
-      event_date: new Date(2020, 3, 16),
+      event_date: new Date(2021, 3, 16),
       event_title: "Upcoming Event",
       event_theme: 'green'
     }

@@ -11,7 +11,7 @@ function WeatherComponent() {
 		feels_like: '-1',
 		description: 'snowing',
 		icon: '50d',
-		name: 'Tala, MX',
+		name: 'Hartford, CT',
 		lat: 20.67,
 		lon: -103.7
 	});
