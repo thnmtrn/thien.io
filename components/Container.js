@@ -23,7 +23,7 @@ export default function Container(props) {
   };
 
   return (
-    <div className="bg-white dark:bg-gray-900 font-sans dark:text-gray-50">
+    <div className="bg-white dark:bg-gray-900 dark:text-gray-50">
       <Head>
         <title>{meta.title}</title>
         <meta name="robots" content="follow, index" />
@@ -45,7 +45,7 @@ export default function Container(props) {
         )}
       </Head>
       
-      <Navbar/>
+      <MobileNav/>
       <main
         id="skip"
         className="flex flex-col justify-center bg-white dark:bg-gray-900 px-8"

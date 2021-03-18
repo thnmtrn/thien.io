@@ -1,8 +1,6 @@
 import ProjectCard from '@/components/ProjectCard'
 import Container from '@/components/Container'
 
-
-
 const projects = () => {
   return (
     <Container>
@@ -33,6 +31,12 @@ const projects = () => {
       <ProjectCard
           title="Annie's NailSpa"
           description="Built with React, NextJS, TailwindCSS. simple landing page"
+          href="https://next-dex.vercel.app/"
+          icon="fastfeedback"
+        />
+      <ProjectCard
+          title="Nice Dist & MFG"
+          description="Built with React, NextJS, TailwindCSS. planning stage"
           href="https://next-dex.vercel.app/"
           icon="fastfeedback"
         />
